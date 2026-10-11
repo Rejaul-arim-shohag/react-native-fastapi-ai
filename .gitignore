@@ -1,0 +1,24 @@
+# ==========================================
+# 1. PYTHON / BACKEND (backend/)
+# ==========================================
+# Virtual environments
+backend/.venv/
+backend/venv/
+backend/env/
+backend/ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Database files (if using local SQLite)
+backend/*.db
+backend/*.sqlite3
+
+# Environment variables & local secrets
+backend/.env
+backend/.env.local
+
+# Pytest / Testing caches
+backend/.pytest_cache/
+backend/.mypy_cache/
+backend/.ruff_cache/
