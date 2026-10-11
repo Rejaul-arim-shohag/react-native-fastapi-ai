@@ -1,8 +1,19 @@
+# fastapi
+# uvicorn[standard]
+# sqlalchemy
+# psycopg[binary]
+# alembic
+# pydantic-settings
+# pytest
+# httpx
+
 fastapi
 uvicorn[standard]
 sqlalchemy
 psycopg[binary]
 alembic
 pydantic-settings
+email-validator
+pwdlib[argon2]
 pytest
 httpx
